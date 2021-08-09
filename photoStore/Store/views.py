@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from django.shortcuts import HttpResponse
+
 
 
 def store_view(request):
-    return HttpResponse('<h1>This is the Store<h1>')
+    return render(request, 'Store\index.html')
 
 
 def product_1_view(request):
