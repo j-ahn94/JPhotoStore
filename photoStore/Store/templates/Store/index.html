@@ -4,14 +4,20 @@
 {% block content %}
 <h1>Store</h1>
 <ul>
-    {% for P in photo %}
-    <div class="card" style="width: 18rem;">
-        <img src="{{ P.photo_url }}" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">{{ P.title }}</h5>
-            <a href="#" class="btn btn-primary">Add to Cart</a>
+
+    <div class="row">
+        {% for P in Photos %}
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="{{ P.photo_url }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ P.title }}</h5>
+                    <p class="card-text">Price: ${{ P.price }}</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </ul>
 {% endblock %}
