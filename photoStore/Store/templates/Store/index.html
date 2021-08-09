@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Photo Store</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block content %}
 <h1>Store</h1>
+<ul>
 {% for P in Photos %}
-    <h3>{{ P.title }}</h3>
-    <h3>Prices: ${{ P.price }}</h3>
+    <li>{{ P.title }} <br>Price:$ {{ P.price }}</li>
 {% endfor %}
-</body>
-</html>
+</ul>
+{% endblock %}
