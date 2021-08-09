@@ -7,3 +7,6 @@ class photo(models.Model):
     
     def __str__(self):
         return self.title
+
+
+    photo1 = photo()
