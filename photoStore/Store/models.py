@@ -9,4 +9,4 @@ class photo(models.Model):
         return self.title
 
 
-    photo1 = photo()
+
