@@ -1,6 +1,6 @@
 <a href="#"><img width="65%" height="auto" src="https://i.ibb.co/RN2vzkT/JPhoto.png" height="80px"/></a>
 
-> Screenshot of J Photo Store.
+> Screenshot of J Photo Store
 
 ---
 
