@@ -1,4 +1,4 @@
-<a href="#"><img width="100%" height="auto" src="https://i.ibb.co/RN2vzkT/JPhoto.png" height="175px"/></a>
+<a href="#"><img width="75%" height="auto" src="https://i.ibb.co/RN2vzkT/JPhoto.png" height="110px"/></a>
 
 > This is a ReadMe template to help save you time and effort.
 
